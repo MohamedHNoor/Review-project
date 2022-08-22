@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/162dfb3961.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Page</title>
+  </head>
+<body>
+  <div class="wrapper">
+      <header id="header">
+          <div class="logo left">
+              <i id="menu" class="material-icons header-icons">menu</i>
+              <a href="#">
+                  <img src="images/youtube logo.png" alt="youtube logo">
+              </a>
+          </div>
+          <div class="search center">
+              <form action="">
+                  <input type="text" placeholder="Search">
+                  <button><i class="material-icons header-icons">search</i></button>
+              </form>
+              <i class="material-icons mic header-icons">mic</i>
+          </div>
+          <div class="icons right">
+              <i class="material-icons header-icons">videocam</i>
+              <i class="material-icons header-icons">apps</i>
+              <i class="material-icons header-icons">notifications</i>
+              <i class="material-icons display-this header-icons">account_circle</i>
+          </div>
+      </header>
+      <div class="main-wrapper">
+          <div class="left"></div>
+              <main>
+                  <div class="main__video">
+                      <div class="main__video-container">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="main__description">
+                          <p>Contributing to Open Source Part I: The Easy Way</p>
+                          <p>67,318 views . Feb 28, 2014</p>
+                          <a href="#">
+                              <img src="images/describe-icons.jpg" alt="describe-icons" >
+                          </a>
+                      </div>
+                      <div class="main__sub-description">
+                          <a href="#">
+                              <img class="main__name" src="images/describe-name.jpg" alt="name">
+                          </a>
+                          <a href="#">
+                              <img class="main__subscriptions" src="images/subscribed.jpg" alt="subscriptions">
+                          </a>
+                          <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open ..</p>
+                      </div>
+                      <div class="main__more">
+                          <a href="#" >
+                              <p>SHOW MORE</p>
+                          </a>
+                      </div>
+                  </div>
+                  <aside class="aside">
+                      <div class="aside__top-container">
+                          <p>Up next</p>
+                          <a href="#">AUTOPLAY</a>
+                      </div>
+                      <a href="#" class="first-img-aside">
+                          <img src="images/aside-pic.jpg" alt="Next video">
+                      </a>
+                      <a href="#" >
+                          <img  class="aside__video" src="images/aside-pic.jpg" alt="Next video">
+                      </a>
+                      <a href="#" >
+                          <img  class="aside__video" src="images/aside-pic.jpg" alt="Next video">
+                      </a>
+                      <div class="aside__more">
+                          <a href="#">SHOW MORE</a>
+                      </div>
+                  </aside>
+          </main>
+      </div>
+
+  </div>
+</body>
+</html> 
